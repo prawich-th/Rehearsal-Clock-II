@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -66,12 +67,12 @@ export default function Home() {
         >
           <i className="bx bx-edit" />
         </button>{" "}
-        <a
+        <Link
           className=" hover:scale-110 transition duration-200 ease-in-out text-[1.75rem] text-rose-700 font-bold"
           href="/"
         >
           <i className="bx bx-home" />
-        </a>
+        </Link>
       </div>
     </>
   );
